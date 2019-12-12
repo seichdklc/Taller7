@@ -73,7 +73,7 @@ public class Vehiculo {
                 +"Modelo: "+modelo +"\n"
                 +"Motor: "+ motor +"\n"
                 +"Almalcenamiento: "+ almacenamiento +  " lb\n"
-                +"Carroceria: "+ carroceria +" \n";
+                +"Carroceria: "+ carroceria;
     }
     
     
