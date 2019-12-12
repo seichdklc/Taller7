@@ -64,5 +64,14 @@ public class Vehiculo {
         this.carroceria = carroceria;
     }
     
+    @Override
+    public String toString(){
+        return "Marca: "+ marca +"\n"
+                +"Modelo: "+modelo +"\n"
+                +"Motor: "+ motor +"\n"
+                +"Almalcenamiento: "+ almacenamiento +  " lb\n"
+                +"Carroceria: "+ carroceria +" \n";
+    }
+    
     
 }
