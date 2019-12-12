@@ -10,11 +10,14 @@ package concesionaria;
  * @author CltControl
  */
 public class Vehiculo {
-    private String marca;
-    private String modelo;
-    private double motor;
-    private int almacenamiento;
-    private String carroceria;
+    protected String marca;
+    protected String modelo;
+    protected double motor;
+    protected int almacenamiento;
+    protected String carroceria;
+    public Vehiculo() {
+    	
+    }
 
     public Vehiculo(String marca, String modelo, double motor, int almacenamiento, String carroceria) {
         this.marca = marca;

@@ -10,7 +10,7 @@ package concesionaria;
  * @author Luis
  */
 public abstract class vehiculoBuilder {
-    private Vehiculo v;
+    protected Vehiculo v;
     
     public Vehiculo getVehiculo(){
         return v;
