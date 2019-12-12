@@ -23,10 +23,17 @@ public class Concesionaria {
         vehiculoDirector vd2=new vehiculoDirector(new ChevroletSparkt_Builder());
         vd2.construirVehiculo();
         Vehiculo nuevo2=vd2.getVehiculo();
+        
+        vehiculoDirector vd3=new vehiculoDirector(new ChevroletAveo_Builder());
+        vd3.construirVehiculo();
+        Vehiculo nuevo3=vd3.getVehiculo();
+        
         System.out.println("Vehiculos almacenados:");
         System.out.println(nuevo);
         System.out.println("---------");
         System.out.println(nuevo2);
+        System.out.println("---------");
+        System.out.println(nuevo3);
     }
     
 }
